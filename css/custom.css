@@ -20,7 +20,17 @@
 
 .some-css-selector {font-size:13px;}
 
+@media (max-width: 767px) {
+  .siteheader-container.container.align-self-center.nav-container {
+    width: 100%
+  }
 
+  .site-header-main-left.d-flex.justify-content-start.align-items-center {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
 
 
 
